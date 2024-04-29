@@ -1,0 +1,28 @@
+{
+  "name": "skale-api-distribution-nodejs",
+  "version": "0.1.0",
+  "description": "SKALE API Distribution Example",
+  "main": "./src/index.js",
+  "repository": "git@github.com:skalenetwork/recipes.git",
+  "author": "TheGreatAxios <sawyer.cutler@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "better-queue": "^3.8.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.3.0",
+    "express": "5.0.0-beta.1",
+    "helmet": "^6.1.5",
+    "p-queue": "^7.3.4",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "dev": "nodemon --watch ./src/index.js",
+    "start": "node ./src/index.js"
+  }
+}
